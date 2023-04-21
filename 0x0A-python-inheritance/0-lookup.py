@@ -2,9 +2,9 @@
 def lookup(obj):
     """ Function that return the list of the available attribute
         and method of object
-    Arg:
+    Args:
         obj: instance of a class
-    Return:
+    Returns:
         List of an attribute
     """
 
