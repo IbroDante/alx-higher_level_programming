@@ -4,7 +4,7 @@
 
 def matrix_divided(matrix, div):
     """
-    This function divides the integer/float numbers of a matrix by a given number.
+    This function divides the integer/float numbers.
 
     Args:
         matrix (list): A list of lists of integers/floats.
@@ -14,7 +14,7 @@ def matrix_divided(matrix, div):
         A new matrix with the result of the division.
 
     Raises:
-        TypeError: If matrix or any of its elements is not a list of integers/floats.
+        TypeError:  elements is not a list of integers/floats.
                    If div is not an integer/float number.
         ZeroDivisionError: If div is zero.
         ValueError: If rows of the matrix have different lengths.
