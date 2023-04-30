@@ -4,12 +4,13 @@
 
 import json
 
+
 def load_from_json_file(filename):
     """ Function that create Object from JSON file
-    
+
     Args:
         filename: textfile name
-    
+
     Raises:
         Exception: when the object can't encoded
     """
