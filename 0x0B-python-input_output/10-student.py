@@ -15,8 +15,9 @@ class Student:
         if attrs is None:
             return self.__dict__.copy()
         elif all(isinstance(attr, str) for attr in attrs):
-            return {attr: getattr(self, attr)(
-                for attr in attrs if hasattr(self, attr)}
-                )
+            return \
+
+        {attr: getattr(self, attr) for attr in attrs if hasattr(self, attr)}
+
         else:
             return self.__dict__.copy()
