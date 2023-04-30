@@ -5,15 +5,13 @@ contains MyList class
 
 
 class MyList(list):
-    """ a suclass"""
-    def __init__(self):
-        """ initialize object"""
-        super().__init__()
+    """ Class that inherits the attributes references of class list
+    Args:
+        list: class list
+    """
 
     def print_sorted(self):
-        """prints the sorted"""
-        new_list = MyList()
-        for item in self:
-            new_list.append(item)
-        new_list.sort()
-        print(new_list)
+        """ Method that prints the sorted list """
+        l_sorted = self.copy()
+        l_sorted.sort()
+        print(l_sorted)
