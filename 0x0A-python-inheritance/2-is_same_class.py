@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" define a class checking func"""
+
+
 def is_same_class(obj, a_class):
     """ Function that returns True/False if obj is a type of a_class
     Args:
@@ -9,3 +12,4 @@ def is_same_class(obj, a_class):
         False, otherwise
     """
     return type(obj) is a_class
+        
